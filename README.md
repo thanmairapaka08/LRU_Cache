@@ -1,10 +1,10 @@
 # 🧠 LRU Cache System – Java
 
 ## 📌 Overview
-This project implements an **LRU (Least Recently Used) Cache** in Java.  
-The cache automatically evicts the least recently accessed item when the maximum capacity is reached, ensuring **efficient memory usage**.
+This project implements an LRU (Least Recently Used) Cache in Java.  
+The cache automatically evicts the least recently accessed item when the maximum capacity is reached, ensuring efficient memory usage.
 
-Both 'get()' and 'put()' operations run in **O(1)** time complexity.
+Both 'get()' and 'put()' operations run in O(1) time complexity.
 
 ---
 
@@ -27,8 +27,8 @@ Both 'get()' and 'put()' operations run in **O(1)** time complexity.
 
 ## 🧩 Design Approach
 To achieve constant-time operations:
-- A **HashMap** stores key–node mappings for fast access
-- A **Doubly Linked List** maintains the order of usage  
+- A HashMap stores key–node mappings for fast access
+- A Doubly Linked List maintains the order of usage  
   - Most recently used items are near the head  
   - Least recently used items are near the tail  
 
